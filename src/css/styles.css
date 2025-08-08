@@ -231,6 +231,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-5 {
+    margin-block: calc(var(--spacing) * 5);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -242,6 +245,18 @@
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
+  }
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
+  }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
+  .ml-6 {
+    margin-left: calc(var(--spacing) * 6);
   }
   .flex {
     display: flex;
@@ -484,8 +499,17 @@
   .bg-\[\#EFF8FE\] {
     background-color: #EFF8FE;
   }
+  .bg-\[\#F3F4F6\] {
+    background-color: #F3F4F6;
+  }
   .bg-\[\#F9FAFB\] {
     background-color: #F9FAFB;
+  }
+  .bg-\[\#F\] {
+    background-color: #F;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-\[\#f7f7f7\] {
     background-color: #f7f7f7;
@@ -498,6 +522,9 @@
   }
   .bg-amber-500 {
     background-color: var(--color-amber-500);
+  }
+  .bg-slate-200 {
+    background-color: var(--color-slate-200);
   }
   .bg-slate-300 {
     background-color: var(--color-slate-300);
