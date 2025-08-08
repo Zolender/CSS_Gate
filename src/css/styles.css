@@ -1180,6 +1180,16 @@
       gap: calc(var(--spacing) * 1);
     }
   }
+  .max-lg\:object-contain {
+    @media (width < 64rem) {
+      object-fit: contain;
+    }
+  }
+  .max-lg\:object-fill {
+    @media (width < 64rem) {
+      object-fit: fill;
+    }
+  }
   .max-lg\:px-0 {
     @media (width < 64rem) {
       padding-inline: calc(var(--spacing) * 0);
