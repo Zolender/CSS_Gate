@@ -1175,6 +1175,11 @@
       padding-inline: calc(var(--spacing) * 2);
     }
   }
+  .max-lg\:px-5 {
+    @media (width < 64rem) {
+      padding-inline: calc(var(--spacing) * 5);
+    }
+  }
   .max-lg\:px-10 {
     @media (width < 64rem) {
       padding-inline: calc(var(--spacing) * 10);
