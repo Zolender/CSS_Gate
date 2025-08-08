@@ -367,6 +367,9 @@
   .max-w-none {
     max-width: none;
   }
+  .min-w-1 {
+    min-width: calc(var(--spacing) * 1);
+  }
   .min-w-1\/4 {
     min-width: calc(1/4 * 100%);
   }
@@ -906,6 +909,11 @@
       display: flex;
     }
   }
+  .max-xl\:grid {
+    @media (width < 80rem) {
+      display: grid;
+    }
+  }
   .max-xl\:hidden {
     @media (width < 80rem) {
       display: none;
@@ -946,9 +954,24 @@
       min-width: 100%;
     }
   }
+  .max-xl\:grid-cols-2 {
+    @media (width < 80rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
   .max-xl\:flex-col {
     @media (width < 80rem) {
       flex-direction: column;
+    }
+  }
+  .max-xl\:flex-row {
+    @media (width < 80rem) {
+      flex-direction: row;
+    }
+  }
+  .max-xl\:flex-wrap {
+    @media (width < 80rem) {
+      flex-wrap: wrap;
     }
   }
   .max-xl\:items-center {
@@ -1077,6 +1100,11 @@
       display: none;
     }
   }
+  .max-lg\:grid-cols-1 {
+    @media (width < 64rem) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
   .max-lg\:flex-col {
     @media (width < 64rem) {
       flex-direction: column;
@@ -1148,6 +1176,11 @@
       top: calc(var(--spacing) * 120);
     }
   }
+  .max-sm\:mb-5 {
+    @media (width < 40rem) {
+      margin-bottom: calc(var(--spacing) * 5);
+    }
+  }
   .max-sm\:block {
     @media (width < 40rem) {
       display: block;
@@ -1163,9 +1196,19 @@
       display: none;
     }
   }
+  .max-sm\:grid-cols-1 {
+    @media (width < 40rem) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
   .max-sm\:flex-col {
     @media (width < 40rem) {
       flex-direction: column;
+    }
+  }
+  .max-sm\:flex-row {
+    @media (width < 40rem) {
+      flex-direction: row;
     }
   }
   .max-sm\:items-center {
@@ -1178,6 +1221,11 @@
       justify-content: center;
     }
   }
+  .max-sm\:gap-1 {
+    @media (width < 40rem) {
+      gap: calc(var(--spacing) * 1);
+    }
+  }
   .max-sm\:p-1 {
     @media (width < 40rem) {
       padding: calc(var(--spacing) * 1);
@@ -1186,6 +1234,11 @@
   .max-sm\:p-2 {
     @media (width < 40rem) {
       padding: calc(var(--spacing) * 2);
+    }
+  }
+  .max-sm\:px-1 {
+    @media (width < 40rem) {
+      padding-inline: calc(var(--spacing) * 1);
     }
   }
   .max-sm\:px-2 {
@@ -1207,6 +1260,12 @@
     @media (width < 40rem) {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .max-sm\:text-xl {
+    @media (width < 40rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
 }
