@@ -1115,9 +1115,19 @@
       align-items: center;
     }
   }
+  .max-lg\:gap-1 {
+    @media (width < 64rem) {
+      gap: calc(var(--spacing) * 1);
+    }
+  }
   .max-lg\:px-2 {
     @media (width < 64rem) {
       padding-inline: calc(var(--spacing) * 2);
+    }
+  }
+  .max-lg\:py-10 {
+    @media (width < 64rem) {
+      padding-block: calc(var(--spacing) * 10);
     }
   }
   .max-lg\:pt-50 {
