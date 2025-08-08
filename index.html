@@ -6,6 +6,15 @@
     <title>RSSB</title>
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="shortcut icon" href="./src/assets/rssb-cut-logo.png" type="image/x-icon">
+    <style>
+        /* the tada is jus because on hover the image appear as if it was magic */
+        .tada{
+            background-image: url(./src/assets/elders.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center; */
+        }
+    </style>
 </head>
 <body class="relative">
     <div class="w-full flex flex-col bg-white">
@@ -107,7 +116,7 @@
         </div>
         <div class=" flex flex-col gap-2 px-2 py-4 bg-white border border-slate-200 hover:-translate-y-4 transition duration-700 ease">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#242b8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
-            <p class="font-bold text-2xl">branches</p>
+            <p class="font-bold text-2xl">Branches</p>
             <p class="font-light text-slate-800">Our services decentralized in <span class="text-[#242e8f] font-bold">30 branches</span> for your satisfaction</p>
         </div>
         <div class=" flex flex-col gap-2 px-2 py-4 bg-white border border-slate-200 hover:-translate-y-4 transition duration-700 ease">
@@ -118,10 +127,35 @@
     </div>
 
 
-    <div class=" bg-[#f7f7f7] py-45 px-70 flex flex-col justify-center items-center">
+    <div class=" bg-[#f7f7f7] pt-45 pb-10 px-70 flex flex-col justify-center items-center">
         <p class="px-1 text-center text-4xl text-slate-600 font-bold ">Optimistic and forward-looking agent of central government, working to achieve</p> 
         <p class="px-10 text-center text-4xl text-[#242e8f]  font-bold"> the financial security and health of all Rwandans.</p>
     </div>
 
+
+    <!-- This would be the social protection section -->
+
+    <div class="grid grid-cols-3 gap-10  mx-auto  py-10 px-15">
+        <div class="col-span-3 flex items-center justify-center gap-4">
+            <div class="h-1.5 w-10 bg-amber-400"></div>
+            <p class=" text-[#242e8f] font-bold text-2xl ">SOCIAL PROTECTION SCHEMES</p>
+        </div>
+
+
+        <div class="hover:tada">
+            <div class="w-full h-full border border-slate-300 rounded-sm p-15 flex flex-col gap-1 justify-center items-center active:ring-2 group hover:bg-[#242e8f]/70">
+                <img src="./src/assets/money.svg" alt="" class=" h-25 group-hover:-translate-y-4 transition duration-500">
+                <p class=" text-[#0f1552] font-bold text-xl group-hover:-translate-y-4 transition duration-500 group-hover:text-amber-500">PENSION SCHEME</p>
+                <p class=" text-slate-700 text-md group-hover:-translate-y-4 transition duration-500">Retire with dignity</p>
+                <div class="flex flex-col justify-center items-center gap-1 invisible group-hover:visible ">
+                    <p class="text-xl text-white">LEARN MORE</p>
+                    <span class="h-2 w-1/2 bg-amber-500"></span>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
 </body>
 </html>
