@@ -429,11 +429,26 @@
   .h-1200 {
     height: calc(var(--spacing) * 1200);
   }
+  .h-\[0\%\] {
+    height: 0%;
+  }
+  .h-\[70\%\] {
+    height: 70%;
+  }
   .h-\[70vh\] {
     height: 70vh;
   }
+  .h-\[75\%\] {
+    height: 75%;
+  }
   .h-\[80vh\] {
     height: 80vh;
+  }
+  .h-\[90\%\] {
+    height: 90%;
+  }
+  .h-\[90\] {
+    height: 90;
   }
   .h-\[100\] {
     height: 100;
@@ -480,6 +495,9 @@
   .w-\[50\%\] {
     width: 50%;
   }
+  .w-\[50\] {
+    width: 50;
+  }
   .w-\[60\%\] {
     width: 60%;
   }
@@ -509,6 +527,12 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-full {
+    max-width: 100%;
+  }
+  .max-w-none {
+    max-width: none;
   }
   .min-w-1 {
     min-width: calc(var(--spacing) * 1);
@@ -584,6 +608,9 @@
   .resize {
     resize: both;
   }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -595,6 +622,12 @@
   }
   .flex-row {
     flex-direction: row;
+  }
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .place-items-center {
     place-items: center;
@@ -635,8 +668,17 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
@@ -704,6 +746,12 @@
   }
   .bg-\[\#EFF8FE\] {
     background-color: #EFF8FE;
+  }
+  .bg-\[\#F9FAFB\] {
+    background-color: #F9FAFB;
+  }
+  .bg-\[\#F\] {
+    background-color: #F;
   }
   .bg-\[\#\] {
     background-color: #;
@@ -978,11 +1026,20 @@
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
   }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
+  .py-35 {
+    padding-block: calc(var(--spacing) * 35);
+  }
   .py-40 {
     padding-block: calc(var(--spacing) * 40);
   }
   .py-45 {
     padding-block: calc(var(--spacing) * 45);
+  }
+  .py-300 {
+    padding-block: calc(var(--spacing) * 300);
   }
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);
@@ -999,11 +1056,17 @@
   .pr-1 {
     padding-right: calc(var(--spacing) * 1);
   }
+  .pr-2 {
+    padding-right: calc(var(--spacing) * 2);
+  }
   .pr-3 {
     padding-right: calc(var(--spacing) * 3);
   }
   .pr-5 {
     padding-right: calc(var(--spacing) * 5);
+  }
+  .pr-7 {
+    padding-right: calc(var(--spacing) * 7);
   }
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
@@ -1011,11 +1074,29 @@
   .pr-14 {
     padding-right: calc(var(--spacing) * 14);
   }
+  .pr-15 {
+    padding-right: calc(var(--spacing) * 15);
+  }
+  .pr-20 {
+    padding-right: calc(var(--spacing) * 20);
+  }
+  .pr-25 {
+    padding-right: calc(var(--spacing) * 25);
+  }
+  .pr-30 {
+    padding-right: calc(var(--spacing) * 30);
+  }
+  .pr-115 {
+    padding-right: calc(var(--spacing) * 115);
+  }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
   }
   .text-center {
     text-align: center;
+  }
+  .text-left {
+    text-align: left;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -1055,6 +1136,9 @@
   .text-\[\#0f1552\] {
     color: #0f1552;
   }
+  .text-\[\#1F2F4F\] {
+    color: #1F2F4F;
+  }
   .text-\[\#242e8f\] {
     color: #242e8f;
   }
@@ -1081,6 +1165,9 @@
   }
   .text-amber-400 {
     color: var(--color-amber-400);
+  }
+  .text-amber-500 {
+    color: var(--color-amber-500);
   }
   .text-black {
     color: var(--color-black);
