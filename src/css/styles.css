@@ -38,6 +38,7 @@
     --font-weight-bold: 700;
     --radius-sm: 0.25rem;
     --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
     --radius-xl: 0.75rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -431,6 +432,9 @@
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
   .rounded-md {
     border-radius: var(--radius-md);
   }
@@ -786,10 +790,24 @@
       }
     }
   }
+  .hover\:bg-\[\#242e8f\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #242e8f;
+      }
+    }
+  }
   .hover\:bg-\[\#242e8f\]\/70 {
     &:hover {
       @media (hover: hover) {
         background-color: color-mix(in oklab, #242e8f 70%, transparent);
+      }
+    }
+  }
+  .hover\:text-white {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-white);
       }
     }
   }
