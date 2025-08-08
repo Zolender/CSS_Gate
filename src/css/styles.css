@@ -1145,6 +1145,16 @@
       height: calc(var(--spacing) * 100);
     }
   }
+  .max-lg\:w-\[100\%\] {
+    @media (width < 64rem) {
+      width: 100%;
+    }
+  }
+  .max-lg\:w-\[100\] {
+    @media (width < 64rem) {
+      width: 100;
+    }
+  }
   .max-lg\:grid-cols-1 {
     @media (width < 64rem) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
