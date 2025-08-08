@@ -891,6 +891,9 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .p-12 {
+    padding: calc(var(--spacing) * 12);
+  }
   .p-14 {
     padding: calc(var(--spacing) * 14);
   }
@@ -1257,6 +1260,34 @@
       }
     }
   }
+  .hover\:bg-\[\#2\]\/90 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #2 90%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#2e\]\/90 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #2e 90%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#5\]\/70 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #5 70%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#242e2\]\/90 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #242e2 90%, transparent);
+      }
+    }
+  }
   .hover\:bg-\[\#242e8f\] {
     &:hover {
       @media (hover: hover) {
@@ -1282,6 +1313,55 @@
     &:hover {
       @media (hover: hover) {
         background-color: color-mix(in oklab, #242e8f 70%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#242e28\]\/70 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #242e28 70%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#242e28\]\/90 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #242e28 90%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#242e28f\]\/70 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #242e28f 70%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#5254\]\/70 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #5254 70%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#525489\]\/0 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #525489 0%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#525489\]\/70 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #525489 70%, transparent);
+      }
+    }
+  }
+  .hover\:bg-\[\#525489\]\/90 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in oklab, #525489 90%, transparent);
       }
     }
   }
