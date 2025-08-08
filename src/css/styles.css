@@ -999,6 +999,16 @@
       align-items: center;
     }
   }
+  .max-xl\:items-start {
+    @media (width < 80rem) {
+      align-items: flex-start;
+    }
+  }
+  .max-xl\:justify-start {
+    @media (width < 80rem) {
+      justify-content: flex-start;
+    }
+  }
   .max-xl\:overflow-hidden {
     @media (width < 80rem) {
       overflow: hidden;
