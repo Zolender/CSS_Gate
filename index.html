@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="shortcut icon" href="./src/assets/rssb-cut-logo.png" type="image/x-icon">
 </head>
-<body>
-    <nav class="w-full flex flex-col bg-white">
+<body class="relative">
+    <div class="w-full flex flex-col bg-white">
         <div class="flex justify-between items-baseline px-10 py-2 bg-[#EFF8FE]">
             <div class="flex items-baseline justify-baseline">
                 <a href="#" class="p-2 border-r border-slate-300">
@@ -62,7 +62,16 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- The sticky navbar -->
+    <nav class=" w-[90%]  border rounded-xl bg-blue-900 px-10 py-7 absolute z-50 top-40 left-1/2 transform -translate-x-1/2 ">
+        <ul class="">
+            <li class="">Home</li>
+        </ul>
     </nav>
+
+
     <section class="hero h-100 relative flex justify-between items-center pr-14" style="background-image: url(./src/assets/hero_bg.jpeg); background-repeat: no-repeat; background-position: center; background-size: cover;">
         <!-- <img src="./src/assets/hero_bg.jpeg" alt="hero image" class="w-full h-full -z-20"> -->
         <div class="bg-white  h-full w-[60%] p-8 flex flex-col justify-center gap-2 ">
