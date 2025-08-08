@@ -552,6 +552,9 @@
   .bg-\[\#\] {
     background-color: #;
   }
+  .bg-\[\#f7f7f7\] {
+    background-color: #f7f7f7;
+  }
   .bg-blue-800 {
     background-color: var(--color-blue-800);
   }
@@ -714,6 +717,18 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .p-20 {
+    padding: calc(var(--spacing) * 20);
+  }
+  .p-50 {
+    padding: calc(var(--spacing) * 50);
+  }
+  .p-100 {
+    padding: calc(var(--spacing) * 100);
+  }
+  .px-0 {
+    padding-inline: calc(var(--spacing) * 0);
+  }
   .px-1 {
     padding-inline: calc(var(--spacing) * 1);
   }
@@ -744,6 +759,12 @@
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
   }
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
+  .px-70 {
+    padding-inline: calc(var(--spacing) * 70);
+  }
   .px-115 {
     padding-inline: calc(var(--spacing) * 115);
   }
@@ -761,6 +782,12 @@
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
+  .py-40 {
+    padding-block: calc(var(--spacing) * 40);
   }
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);
@@ -785,6 +812,9 @@
   }
   .pr-14 {
     padding-right: calc(var(--spacing) * 14);
+  }
+  .text-center {
+    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -817,6 +847,9 @@
   .font-light {
     --tw-font-weight: var(--font-weight-light);
     font-weight: var(--font-weight-light);
+  }
+  .text-\[\#242e8f\] {
+    color: #242e8f;
   }
   .text-\[r\] {
     color: r;
