@@ -367,6 +367,15 @@
   .max-w-none {
     max-width: none;
   }
+  .min-w-\[70\%\] {
+    min-width: 70%;
+  }
+  .min-w-\[70\] {
+    min-width: 70;
+  }
+  .min-w-full {
+    min-width: 100%;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -876,6 +885,11 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
+  .max-xl\:top-120 {
+    @media (width < 80rem) {
+      top: calc(var(--spacing) * 120);
+    }
+  }
   .max-xl\:block {
     @media (width < 80rem) {
       display: block;
@@ -947,6 +961,71 @@
       padding-block: calc(var(--spacing) * 10);
     }
   }
+  .max-lg\:top-10 {
+    @media (width < 64rem) {
+      top: calc(var(--spacing) * 10);
+    }
+  }
+  .max-lg\:top-100 {
+    @media (width < 64rem) {
+      top: calc(var(--spacing) * 100);
+    }
+  }
+  .max-lg\:top-110 {
+    @media (width < 64rem) {
+      top: calc(var(--spacing) * 110);
+    }
+  }
+  .max-lg\:top-120 {
+    @media (width < 64rem) {
+      top: calc(var(--spacing) * 120);
+    }
+  }
+  .max-lg\:top-130 {
+    @media (width < 64rem) {
+      top: calc(var(--spacing) * 130);
+    }
+  }
+  .max-lg\:top-135 {
+    @media (width < 64rem) {
+      top: calc(var(--spacing) * 135);
+    }
+  }
+  .max-lg\:right-20 {
+    @media (width < 64rem) {
+      right: calc(var(--spacing) * 20);
+    }
+  }
+  .max-lg\:-left-2 {
+    @media (width < 64rem) {
+      left: calc(var(--spacing) * -2);
+    }
+  }
+  .max-lg\:left-0\.5 {
+    @media (width < 64rem) {
+      left: calc(var(--spacing) * 0.5);
+    }
+  }
+  .max-lg\:left-2 {
+    @media (width < 64rem) {
+      left: calc(var(--spacing) * 2);
+    }
+  }
+  .max-lg\:left-20 {
+    @media (width < 64rem) {
+      left: calc(var(--spacing) * 20);
+    }
+  }
+  .max-lg\:mr-2 {
+    @media (width < 64rem) {
+      margin-right: calc(var(--spacing) * 2);
+    }
+  }
+  .max-lg\:mr-5 {
+    @media (width < 64rem) {
+      margin-right: calc(var(--spacing) * 5);
+    }
+  }
   .max-lg\:block {
     @media (width < 64rem) {
       display: block;
@@ -1015,6 +1094,11 @@
   .max-sm\:visible {
     @media (width < 40rem) {
       visibility: visible;
+    }
+  }
+  .max-sm\:top-120 {
+    @media (width < 40rem) {
+      top: calc(var(--spacing) * 120);
     }
   }
   .max-sm\:block {
