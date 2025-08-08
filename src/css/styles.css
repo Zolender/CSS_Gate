@@ -1196,6 +1196,18 @@
       line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
+  .max-lg\:text-sm {
+    @media (width < 64rem) {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
+  .max-lg\:text-xl {
+    @media (width < 64rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
   .max-md\:block {
     @media (width < 48rem) {
       display: block;
